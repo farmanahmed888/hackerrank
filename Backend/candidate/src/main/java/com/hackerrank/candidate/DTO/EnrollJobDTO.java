@@ -1,5 +1,12 @@
 package com.hackerrank.candidate.DTO;
 
-public class EnrollJobDTO {
+import lombok.*;
 
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class EnrollJobDTO {
+    private Integer jobId;
+    private Integer candidateId;
+    private String candidateName;
 }

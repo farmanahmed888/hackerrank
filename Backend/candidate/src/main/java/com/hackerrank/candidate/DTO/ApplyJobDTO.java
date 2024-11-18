@@ -1,5 +1,18 @@
 package com.hackerrank.candidate.DTO;
 
-public class ApplyJobDTO {
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class ApplyJobDTO {
+    private Integer candidateId;
+    private Integer jobId;
+    private String companyName;
+    private String testScore;
+    private String applicationStatus="Pending";
 }
