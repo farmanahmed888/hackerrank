@@ -17,6 +17,7 @@ public class AppliedJobDTO {
     private Integer candidateId;
     private Integer jobId;
     private String jobName;
+    private String jobRole;
     private String jobDescription;
     private Date interviewDate;
     private String status="Pending";

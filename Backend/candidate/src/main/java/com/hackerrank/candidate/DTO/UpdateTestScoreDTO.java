@@ -1,5 +1,8 @@
 package com.hackerrank.candidate.DTO;
 
-public class UpdateTestScoreDTO {
+import lombok.Data;
 
+@Data
+public class UpdateTestScoreDTO {
+    private Integer testScore;
 }

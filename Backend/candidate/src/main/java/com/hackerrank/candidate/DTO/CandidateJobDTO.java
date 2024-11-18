@@ -1,5 +1,11 @@
 package com.hackerrank.candidate.DTO;
 
-public class CandidateJobDTO {
+import java.util.List;
 
+import lombok.Data;
+@Data
+public class CandidateJobDTO {
+    private String roleType;
+    private String jobDescription;
+    private List<String> requirements;
 }

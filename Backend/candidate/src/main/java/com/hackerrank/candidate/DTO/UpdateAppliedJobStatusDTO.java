@@ -1,5 +1,8 @@
 package com.hackerrank.candidate.DTO;
 
-public class UpdateAppliedJobStatusDTO {
+import lombok.Data;
 
+@Data
+public class UpdateAppliedJobStatusDTO {
+    private String appliedStatus;
 }
