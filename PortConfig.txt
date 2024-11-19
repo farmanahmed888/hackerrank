@@ -1,2 +1,3 @@
 --Backend
     Candidate service=8082
+    Interviewer service=8081
