@@ -10,8 +10,8 @@ import java.sql.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 public class JobEnrollmentInfoDTO {
-    private Long enrollId;
-    private Long candidateId;
+    private int enrollId;
+    private int candidateId;
     private String candidateName;
     private String testScore;
     private Date interviewDate;

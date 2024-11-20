@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class InterviewRecordInfoDTO {
     private String candidateName;
-    private String roomId;
+    private int roomId;
     private String positiveFeedback;
     private String negativeFeedback;
 

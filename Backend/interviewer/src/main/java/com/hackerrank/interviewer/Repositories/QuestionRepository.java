@@ -1,5 +1,9 @@
 package com.hackerrank.interviewer.Repositories;
 
-public interface  QuestionRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.hackerrank.interviewer.Entities.Question;
+
+public interface  QuestionRepository extends JpaRepository<Question, Long>{
 
 }
